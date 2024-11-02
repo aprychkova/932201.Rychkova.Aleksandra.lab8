@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset=utf-8>
+    <title>Lab 8</title>
+    <link rel="stylesheet" type="text/css" href="lab8.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="row">
+        <input type="text">
+        <input type="text">
+        <button onclick="moveUp(this)">↑</button>
+        <button onclick="moveDown(this)">↓</button>
+        <button onclick="removeRow(this)">x</button>
+        </div>
+    </div>
+    
+    <div class="addbutton">
+        <button onclick="addRow()">Добавить элемент</button>
+    </div>
+
+    <div class="savebutton">
+        <button onclick="save()">Сохранить</button>
+    </div>
+
+    <div id="output"></div>
+
+    <script src="lab8.js"></script>
+
+</body>
+</html>
